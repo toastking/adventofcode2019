@@ -32,5 +32,5 @@ func main() {
 
 /** Calculate the fuel needed for a given mass */
 func calculateFuel(mass float64) float64 {
-	return math.Round(mass/3.0) - 2.0
+	return math.Floor(mass/3.0) - 2.0
 }
